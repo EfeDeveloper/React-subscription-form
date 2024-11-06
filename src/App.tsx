@@ -1,12 +1,10 @@
+import SubscriptionFormLayout from "@/pages/subscriptionForm/SubscriptionFormLayout"
 
 
 function App() {
 
-  return (
-      <h1 className='text-3xl text-blue-400'>
-        Hello Vite + React + TS!
-      </h1>
-  )
+  return <SubscriptionFormLayout />
+
 }
 
 export default App
