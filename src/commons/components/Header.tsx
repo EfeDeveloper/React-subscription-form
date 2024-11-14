@@ -1,20 +1,14 @@
-import { Button } from "@/core/components/ui/button"
+import { Button } from "@/core/components/ui/button";
 
 const Header = () => {
-    return (
-        <header>
-            <section className="flex justify-between">
-                <figure>
-                    <img src='http://fakeimg.pl/40x40?text=Logo&font=lobster' alt='' className="rounded-full w-10 h-10" />
-                </figure>
-                <div className="flex gap-4">
-                    <Button variant='default'>Log in</Button>
-                    <Button variant='outline'>Get Started</Button>
-                </div>
-            </section>
+  return (
+    <header>
+      <section className="flex justify-end gap-4 m-2 md:m-10">
+        <Button variant="default">Log in</Button>
+        <Button variant="outline">Get Started</Button>
+      </section>
+    </header>
+  );
+};
 
-        </header>
-    )
-}
-
-export default Header
+export default Header;
