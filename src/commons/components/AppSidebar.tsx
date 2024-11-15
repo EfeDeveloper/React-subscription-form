@@ -34,8 +34,8 @@ export function AppSidebar() {
             <figure>
               <img
                 src="http://fakeimg.pl/40x40?text=Logo&font=lobster"
-                alt=""
-                className="rounded-full w-10 h-10"
+                alt="sidebarLogo"
+                className="rounded-md w-10 h-10"
               />
             </figure>
           </SidebarGroupLabel>
