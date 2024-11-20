@@ -14,8 +14,8 @@ const Footer = () => {
       <figure>
         <img
           src="http://fakeimg.pl/40x40?text=Logo&font=lobster"
-          alt=""
-          className="rounded-full w-10 h-10"
+          alt="footerLogo"
+          className="rounded-md w-10 h-10"
         />
       </figure>
       <p>© 2024 Edwin Villa & Johan Guerrero. All rights reserved.</p>
